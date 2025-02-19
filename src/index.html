@@ -9,26 +9,38 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
     />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <style>
+      .nav-btn {
+        background-color: azure;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 150px;
+        height: 40px;
+        cursor: pointer;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .nav-btn:focus {
+        background-color: aquamarine;
+      }
+
+      .nav-btn:hover {
+        background-color: aquamarine;
+      }
+    </style>
   </head>
-  <style>
-    /* li {
-      list-style-type: none;
-    }
-    a {
-      font-size: 34px;
-      color: black;
-      padding: 15px;
-    } */
-  </style>
   <body>
     <h1>my HW 10</h1>
-    <a href="./1-timer.html"><button>Go timer</button></a>
-    <a href="./2-snackbar.html"><button>Go snackbar</button></a>
-    <!-- <nav class="cont">
-      <ul class="gallery">
-        <li><a href="./1-timer.html">-Timer</a></li>
-        <li><a href="./2-snackbar.html">-Snackbar</a></li>
-      </ul>
-    </nav> -->
+    <ul>
+      <li>
+        <a href="./1-timer.html"><button class="nav-btn">Go timer</button></a>
+      </li>
+      <li>
+        <a href="./2-snackbar.html"
+          ><button class="nav-btn">Go snackbar</button></a
+        >
+      </li>
+    </ul>
   </body>
 </html>
